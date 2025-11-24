@@ -150,7 +150,135 @@
             </div>
         </div>
     </section>
+<!-- ====== SECCIÓN DEL FOLLETO (AISLADA) ====== -->
+<div class="folleto-prehospitalario">
 
+<style>
+    .folleto-prehospitalario * {
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    .folleto-prehospitalario {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .folleto-prehospitalario .folio {
+        display: flex;
+        width: 900px;
+        background: white;
+        box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .folleto-prehospitalario .col {
+        width: 33.3%;
+        padding: 20px;
+        border-right: 1px solid #ddd;
+    }
+
+    .folleto-prehospitalario .col:last-child {
+        border-right: none;
+    }
+
+    .folleto-prehospitalario h2 {
+        text-align: center;
+        color: #333;
+        margin-top: 0;
+    }
+
+    .folleto-prehospitalario .titulo-portada {
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .folleto-prehospitalario .icono {
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    .folleto-prehospitalario .icono img {
+        width: 5cm;
+        border-radius: 5 cm;
+    }
+
+  .folleto-prehospitalario .imagen { 
+    text-align: center;
+        margin: 15px 0;
+  }
+ .folleto-prehospitalario .imagen img {
+  width: 5cm;
+        border-radius: 5 cm;
+  }
+
+    .folleto-prehospitalario p,
+    .folleto-prehospitalario ul {
+        font-size: 15px;
+        text-align: justify;
+        line-height: 1.4;
+    }
+</style>
+
+<div class="folio">
+
+    <!-- COLUMNA 1: PORTADA -->
+    <div class="col">
+        <p class="titulo-portada">EL OBJETIVO DE LA NOCHE ES SALVAR VIDAS</p>
+        
+        <div class="icono">
+            <img src="portada.jpg" alt="Portada folleto">
+        </div>
+
+        <h2>ATENCIÓN PREHOSPITALARIA</h2>
+    </div>
+
+    <!-- COLUMNA 2 -->
+    <div class="col">
+        <h2>¿Qué son los cuidados preoperatorios?</h2>
+
+        <p>
+            Son medidas esenciales que se realizan antes de una cirugía para preparar
+            al paciente física y emocionalmente. Su objetivo es minimizar riesgos,
+            prevenir complicaciones y asegurar que el paciente esté en condiciones
+            óptimas para la intervención.
+        </p>
+
+        <p>
+            Estas acciones incluyen educación, recomendaciones sobre higiene, alimentación,
+            medicamentos y apoyo emocional, lo cual contribuye a una cirugía más segura
+            y a una recuperación más eficaz.
+        </p>
+
+        <div class="icono">
+            <img src="icono.jpg" alt="Interior folleto">
+        </div>
+    </div>
+
+    <!-- COLUMNA 3 -->
+    <div class="col">
+        <h2>Indicaciones generales</h2>
+<div class="imagen">
+<img src="emergency-help-paramedics-characters-first-600nw-1967856328.webp" alt="imagen final">
+</div>
+        <ul>
+            <li>No comer ni beber 6 a 8 horas antes de la cirugía.</li>
+            <li>Esto previene vómitos durante la anestesia.</li>
+            <li>Baño con jabón antiséptico.</li>
+            <li>Evitar cremas, maquillaje o esmaltes.</li>
+            <li>Usar bata hospitalaria.</li>
+            <li>Retirar joyas, prótesis dentales, lentes y objetos metálicos.</li>
+        </ul>
+
+    </div>
+
+</div>
+
+</div>
+<!-- ====== FIN DE LA SECCIÓN AISLADA ====== -->
   <section class="presupuesto">
     <h2>💰 Presupuesto</h2>
     <p>🩹 <strong>Vendas:</strong> $15 – $30</p>
